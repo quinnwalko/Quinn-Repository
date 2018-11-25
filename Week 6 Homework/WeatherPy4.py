@@ -62,7 +62,7 @@ plt.scatter(weather_df["Latitude"],weather_df["Temperature"], alpha = 0.5)
 plt.title("Temperature vs. Latitude")
 plt.xlabel("Latitude")
 plt.ylabel("Temperature (F)")
-plt.savefig("Output/Temperature_vs_Latitude.png")
+plt.savefig("Output/Temperature.png")
 plt.show()
 
 plt.scatter(weather_df["Latitude"],weather_df["Humidity"], alpha = 0.75)
