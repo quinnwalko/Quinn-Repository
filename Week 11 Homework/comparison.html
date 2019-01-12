@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <title>Latitude Analysis</title>
+
+</head>
+<body style="background-color: rgb(230, 223, 223)"
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand logo" href="index.html">
+                  <span class="nav color">Latitude</span></a>
+            </div>
+
+            <div class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+                <ul class="dropdown menu">
+                  <li><a href="temperature.html">Max Temperature</a></li>
+                  <li><a href="humidity.html">Humidity</a></li>
+                  <li><a href="cloudiness.html">Cloudiness</a></li>
+                  <li><a href="wind_speed.html">Wind Speed</a></li>
+                </ul>
+              </li>
+              <li><a href="comparison.html">Comparison</a></li>
+              <li><a href="data.html">Data</a></li>
+            </div>
+        </div>
+      </nav>
+
+      <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+
+                    <h1>Latitude vs X.</h1>
+                    <hr>
+                    <p>Click on a plot for further analysis</p>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <h2 class="text-center"> vs Max Temperature</h2>
+                            <a href="temperature.html"><img class="img img-responsive" src="assets\Fig1.png" style="width:75%" alt=""</a></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <h2 class="text-center"> vs Humidity</h2>
+                            <a href="humidity.html"><img class="img img-responsive" src="assets\Fig2.png" style="width:75%" alt=""</a></div>
+                    </div>
+
+                    <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <h3 class = "text-center">vs Cloudiness</h3>
+                                <a href="cloudiness.html"><img class = "img img-responsive" src="assets\Fig3.png" style="width:75%" alt=""></a></div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <h3 class = "text-center">vs Wind Speed</h3>
+                                <a href="wind_speed.html"><img class = "img img-responsive" src="assets\Fig4.png" style="width:75%" alt=""></a></div>
+                    </div>
+                                
+                </div>
+                        
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+</div>
+</div>
+</body>
+</html>
